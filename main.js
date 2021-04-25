@@ -8,11 +8,11 @@
  
   fetch(url).then((response) =>
     response.json().then((data) => {
-      //console.log(data);
+     
 
     
       for(user of data.data){
-          //console.log(user);
+       
 
         table.innerHTML += ` <tr>
         <td><input type="text" class="form-control" id="" value="
